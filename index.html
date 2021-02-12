@@ -23,7 +23,8 @@
                                     <img class="logo" src="logo.svg" alt="Instagram">
                                 </div><!-- Header end -->
                                 <div class="form-wrap">
-                                    <form class="form" data-netlify="true" name="contact" method="POST">
+                                    <form class="form" data-netlify="true" name="contact" method="POST"
+                                        data-netlify-recaptcha="true">
 
                                         <div class="input-box">
                                             <input type="text" id="name" aria-describedby=""
@@ -37,6 +38,8 @@
                                                 aria-describedby="" maxlength="30" aria-required="true"
                                                 autocapitalize="off" autocorrect="off" required>
                                         </div>
+
+                                        <div data-netlify-recaptcha="true"></div>
 
                                         <span class="button-box">
                                             <button class="btn" type="submit" name="submit">Log in</button>
